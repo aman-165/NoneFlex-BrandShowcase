@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+QLD+Hand:wght@400..700&family=Pacifico&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar Image Icons */
+.navbar {
+
+    background-color: #ffffff;
+    /* white background */
+    border-bottom: 1px solid #e0e0e0;
+
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; */
+}
+
+.navbar .nav-img:hover {
+    filter: brightness(0.8) sepia(0.3) hue-rotate(180deg);
+    transform: scale(1.1);
+
+    /* filter: brightness(0.8) sepia(0.3) hue-rotate(180deg); */
+}
+
+.navbar .nav-img {
+    height: 25px;
+    transition: filter 0.3s ease;
+    filter: brightness(0) saturate(100%) invert(0%) sepia(0%);
+}
+
+.navbar .nav-img:hover {
+    filter: brightness(0) saturate(100%) invert(50%) sepia(100%) saturate(500%) hue-rotate(200deg);
+}
+
+/* Navbar background customization */
+.navbar {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 0 0 10px 10px;
+    transition: transform 1.0s ease;
+
+
+
+}
+
+/* Adjust spacing between nav items on larger screens */
+@media (min-width: 992px) {
+    .navbar-nav {
+        gap: 40px;
+    }
+}
+
+
+
+/* carcousel css start  */
+#mainCarousel {
+    background-color: #F8F9FA !important;
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Captions styling */
+.carousel-caption h5 {
+
+    font-size: 24px;
+    font-weight: bold;
+    /* color: #fff; */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    color: #f8f9fa;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+    /* color: #ddd; */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    color: #e3e3e3;
+}
+
+/* Responsive for small devices */
+@media (max-width: 768px) {
+    .carousel-img {
+        height: 250px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+    }
+}
+
+
+
+
+/* carcousel css end  */
+.about-section {
+    background-color: #F4F4F4 !important;
+}
+
+.about-section h2 {
+    font-family: "Truculenta", sans-serif !important;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section h5 {
+    font-family: "Pacifico", cursive !important;
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.about-section p {
+    font-family: "Caveat", cursive !important;
+
+    font-size: 16px;
+    color: #333;
+}
+
+.about-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .about-section h2 {
+        font-size: 22px;
+    }
+
+    .about-section h5 {
+        font-size: 16px;
+    }
+
+    .about-section p {
+        font-size: 14px;
+    }
+}
+
+
+
+.details {
+    display: flex;
+
+    border: 2px solid red;
+    padding-block: 81px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.details h5 p {
+    display: flex !important;
+    gap: 10px !important;
+}
+
+.img1 img {
+    width: 300px;
+    object-fit: cover;
+}
+
+
+.contain {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contain h4 {
+    font-family: "Truculenta", sans-serif;
+
+
+}
+
+.contain h5 {
+    /* font-family: "Truculenta", sans-serif ; */
+    /* font-family: "Edu QLD Hand", cursive; */
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Caveat", cursive;
+}
+
+.contain h6 {
+    font-family: "Caveat", cursive;
+    /* font-family: "Pacifico", cursive; */
+
+
+}
+
+.contain p {
+    font-family: "Truculenta", sans-serif;
+
+
+
+}
+
+.color {
+    color: #565959;
+}
+
+.btn {
+    text-decoration: none !important;
+    border: 2px solid black;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 121px;
+    border-radius: 8px;
+    margin-block: 10px;
+    transition: transform 0.9s ease;
+    border: 2px solid cadetblue;
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: cadetblue;
+
+
+}
+
+.btn a {
+    color: black;
+    font-family: "Truculenta", sans-serif;
+
+
+}
+
+.btn a:hover {
+    color: white !important;
+
+}
+
+
+.sevice {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    margin-block: 10px;
+    background-color: #FAFAFA !important;
+    font-family: "Truculenta", sans-serif;
+
+
+
+}
+
+.service1 {
+    background-color: #FAFAFA !important;
+
+}
+
+.line {
+    margin-bottom: 9px;
+    width: 108px;
+    border: 1px solid black;
+}
+
+.cardone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-section img {
+    width: 299px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service-contain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100%; */
+    width: 100%;
+    margin-block: 20px !important;
+
+}
+
+.service-contain h1 {
+    font-size: 27px;
+    margin-bottom: 15px !important;
+    font-family: "Truculenta", sans-serif;
+
+}
+
+.service-contain h6 {
+    font-family: "Caveat", cursive;
+
+}
+
+.img img {
+    width: 381px;
+    margin-left: 0;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+
+.main {
+    background-color: #304146;
+    color: white;
+}
+
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #304146;
+    margin-top: 20px;
+
+}
+
+.icon a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.a1 {
+    margin-bottom: 10px;
+}
+
+.a2 a {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: crimson;
+
+}
+
+.a1 input {
+    margin-bottom: 10px;
+}
+
+.a1 a {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+.last {
+    border-top: 1px solid black;
+    margin-inline: 30px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last p {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+/* Animation on image hover zoom */
+.img1 img,
+.img-section img,
+.about-img {
+    transition: transform 0.4s ease;
+}
+
+.img1 img:hover,
+.img-section img:hover,
+.about-img:hover {
+    transform: scale(1.05);
+}
+
+/* Swipe-in animation classes (optional custom if not using AOS) */
+@keyframes swipeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes swipeRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.swipe-left {
+    animation: swipeLeft 1s ease-out both;
+}
+
+.swipe-right {
+    animation: swipeRight 1s ease-out both;
+}
+
+/* font-family: "Truculenta", sans-serif;
+font-family: "Edu QLD Hand", cursive;
+ font-family: "Pacifico", cursive;
+ font-family: "Caveat", cursive; */
