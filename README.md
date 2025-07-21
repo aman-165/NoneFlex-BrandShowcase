@@ -33,14 +33,14 @@
 
 ## 📁 Folder Structure
 
-NoneFlex-BrandShowcase/
-│
-├── index.html
-├── style.css
-├── images/
-│ └── (All product & banner images)
-├── fonts/
-│ └── (Custom or Google Fonts if hosted locally)
+NoneFlex-BrandShowcase/<br>
+│<br>
+├── index.html<br>
+├── style.css<br>
+├── images/<br>
+│ └── (All product & banner images)<br>
+├── fonts/<br>
+│ └── (Custom or Google Fonts if hosted locally)<br>
 └── README.md
 
 
